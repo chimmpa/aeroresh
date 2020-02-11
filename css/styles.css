@@ -1,0 +1,29 @@
+
+/* Navigation Section */
+#navigation {
+  padding: 0 1rem;
+}
+
+/* introduction Section */
+#introduction {
+  position: relative
+}
+
+#introduction span, h3 {
+  padding: 2px 1rem;
+}
+
+.introImg {
+  width: 100%;
+}
+.introContainer {
+  position: absolute;
+  top: 50%;
+  left: 2rem;
+}
+
+/* about section */
+
+#about {
+  margin-top: 2rem;
+}
