@@ -1,18 +1,33 @@
 
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+.montBlack{
+  font-weight: 900;
+}
+.montLight {
+  font-weight: 300;
+}
+
 /* Navigation Section */
 #navigation {
   padding: 0 1rem;
 }
-
+.navText {
+  font-size: 20px;
+}
 /* introduction Section */
 #introduction {
   position: relative
 }
 
-#introduction span, h3 {
+#introduction span,h3 {
   padding: 2px 1rem;
+  color: white;
 }
-
+.introBtn {
+  margin-left: 16px;
+}
 .introImg {
   width: 100%;
 }
@@ -25,9 +40,17 @@
 /* about section */
 
 #about {
+  margin: 4rem 0;
+}
+
+.rowMargin {
   margin: 2rem 0;
 }
 
+.colH3 {
+  color: #27496d;
+  font-weight: 700;
+}
 /* footer section */
 
 #footer {

@@ -4,57 +4,70 @@
 <head>
   <meta charset="utf-8">
   <title>Aeroresh Website</title>
-  <link rel="stylesheet" href="css/styles.css">
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,700,900&display=swap" rel="stylesheet">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
   <script src="https://kit.fontawesome.com/9f7fe4ea4a.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
   <section id="navigation">
     <nav class="navbar navbar-expand-lg navbar-light bg-white">
-      <a class="navbar-brand" href="#">Aeroresh</a>
+      <a class="navbar-brand navText" href="#">Aeroresh</a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarNavDropdown">
         <ul class="navbar-nav ml-auto">
           <li class="nav-item">
-            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+            <a class="nav-link navText" href="#">Home <span class="sr-only">(current)</span></a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Contact</a>
+            <a class="nav-link navText" href="#">Contact</a>
           </li>
         </ul>
       </div>
     </nav>
   </section>
   <section id="introduction">
-      <img class="introImg" src="img/Aeroplane.jpg" alt="picture of an aeroplane">
+      <img class="introImg" src="img/Aeroplane-blue.jpg" alt="picture of an aeroplane">
       <div class="introContainer">
-        <h1><span class="rounded bg-white">Aeroresh</span></h1>
-        <h3 class="rounded bg-white">Aircraft, Oil and Commodity Trading</h3>
+        <h1><span class="montBlack">Aeroresh</span></h1>
+        <h3 class="montLight">Aircraft, Oil and Commodity Trading</h3>
+        <button class="btn btn-light introBtn" type="button" name="button">Get In Touch</button>
       </div>
   </section>
   <section id="about">
     <div class="container">
-      <h3>Our Core Products</h3>
-      <p>Based at Hawarden Airport (EGNR) in the United Kingdom, Aero Services
-      Consulting Ltd is an Aviation Consultancy company who specialise in
-      offering industry advice to clients all over the world. </p>
-      <ul>
-        <li>Charter an aircraft from Hawarden airport and take advantage of
-        empty legs, minimal positioning and based aircraft available for ad-hoc
-        charter. </li>
-        <li>Visit us at Hawarden Airport for a free aircraft purchasing
-        consultation.</li>
-        <li>Come and visit us in the North West of England to review our
-        aircraft engine and major assets portfolio.</li>
-        <li>We also take stock of small parts and ground equipment for sale and
-        lease. Our dynamic inventory is constantly being updated so get in
-        touch for our latest lists.</li>
-      </ul>
-      <p>We look forward to assisting you in the future!</p>
-    </div>
+      <div class="row rowMargin">
+        <div class="col-6" data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine">
+          <h3 class="colH3">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec rutrum, ipsum et hendrerit ultricies, metus.</h1>
+        </div>
+        <div class="col-6">
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum
+            auctor nunc nec diam pharetra, sed scelerisque ipsum fermentum.
+            Phasellus sed eros efficitur, laoreet massa at, fringilla purus.
+            Cras aliquam rhoncus hendrerit. Vestibulum vitae consectetur augue.
+            Nullam arcu orci, faucibus non mi non, dignissim sollicitudin augue.
+            Sed euismod blandit mi sit amet sodales. Proin suscipit ipsum
+            tincidunt tellus gravida, eget eleifend diam porttitor.</p>
+        </div>
+      </div>
+      <div class="row rowMargin">
+        <div class="col-6">
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum
+            auctor nunc nec diam pharetra, sed scelerisque ipsum fermentum.
+            Phasellus sed eros efficitur, laoreet massa at, fringilla purus.
+            Cras aliquam rhoncus hendrerit. Vestibulum vitae consectetur augue.
+            Nullam arcu orci, faucibus non mi non, dignissim sollicitudin augue.
+            Sed euismod blandit mi sit amet sodales. Proin suscipit ipsum
+            tincidunt tellus gravida, eget eleifend diam porttitor.</p>
+        </div>
+        <div class="col-6" data-aos="fade-left" data-aos-offset="300" data-aos-easing="ease-in-sine">
+          <h3 class="colH3">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec rutrum, ipsum et hendrerit ultricies, metus.</h1>
+        </div>
+      </div>
   </section>
   <section id="footer">
     <div class="container">
@@ -77,6 +90,10 @@
   <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+  AOS.init();
+</script>
 </body>
 
 </html>
