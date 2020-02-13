@@ -1,0 +1,17 @@
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+.montBlack{
+  font-weight: 900;
+}
+.montLight {
+  font-weight: 300;
+}
+
+/* Navigation Section */
+#navigation {
+  padding: 0 1rem;
+}
+.navText {
+  font-size: 20px;
+}

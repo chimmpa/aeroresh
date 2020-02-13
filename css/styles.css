@@ -2,6 +2,9 @@
 body {
   font-family: 'Montserrat', sans-serif;
 }
+hr {
+  margin: 0 2rem;
+}
 .montBlack{
   font-weight: 900;
 }
@@ -48,11 +51,18 @@ body {
 }
 
 .colH3 {
-  color: #27496d;
+  color: #00a8cc;
   font-weight: 700;
+}
+.colP {
+  padding: 0 1rem;
 }
 /* footer section */
 
 #footer {
   text-align: center;
+}
+
+.icon {
+  color: grey;
 }
