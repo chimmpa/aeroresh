@@ -23,21 +23,26 @@ hr {
 #introduction {
   position: relative
 }
-
-#introduction span,h3 {
-  padding: 2px 1rem;
-  color: white;
+.introH3 {
+  font-size: 2rem
 }
-.introBtn {
-  margin-left: 16px;
-}
-.introImg {
-  width: 100%;
+.introSpan {
+  font-size: 3rem;
 }
 .introContainer {
+  color: white;
   position: absolute;
   top: 50%;
-  left: 2rem;
+  margin-left: 2rem;
+}
+.introContainer2 {
+  color: white;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+  transform: translateX(-50%);
+  text-align: center;
 }
 
 /* about section */
@@ -53,9 +58,6 @@ hr {
 .colH3 {
   color: #00a8cc;
   font-weight: 700;
-}
-.colP {
-  padding: 0 1rem;
 }
 /* footer section */
 
