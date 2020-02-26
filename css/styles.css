@@ -5,6 +5,9 @@ body {
 hr {
   margin: 0 2rem;
 }
+img {
+  height: auto;
+}
 .montBlack{
   font-weight: 900;
 }
@@ -59,6 +62,13 @@ hr {
   color: #00a8cc;
   font-weight: 700;
 }
+.colP {
+  font-size: 1rem;
+}
+/* contact section */
+
+
+
 /* footer section */
 
 #footer {
@@ -67,4 +77,14 @@ hr {
 
 .icon {
   color: grey;
+  font-size: 1.25rem;
+}
+
+/* media tags */
+
+/* Extra Small Devices, Phones */
+@media (max-width : 576px) {
+  .colP {
+    font-size: 1.25rem;
+  }
 }

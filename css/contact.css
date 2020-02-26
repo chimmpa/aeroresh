@@ -15,3 +15,32 @@ body {
 .navText {
   font-size: 20px;
 }
+
+/* contacts section */
+
+#map {
+  height: 500px;
+}
+.contactCol {
+  position: relative;
+  text-align: center;
+}
+
+.contact {  
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+  transform: translateX(-50%);
+  text-align: center;
+}
+
+/* footer section */
+
+#footer {
+  text-align: center;
+}
+
+.icon {
+  color: grey;
+}
