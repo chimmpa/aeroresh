@@ -19,6 +19,10 @@ img {
 .navText {
   font-size: 20px;
 }
+.logo {
+  height: 2rem;
+}
+
 /* introduction Section */
 #introduction {
   position: relative
@@ -38,7 +42,7 @@ img {
 .introContainer2 {
   color: white;
   position: absolute;
-  top: 50%;
+  top: 30%;
   left: 50%;
   -webkit-transform: translateX(-50%);
   transform: translateX(-50%);
