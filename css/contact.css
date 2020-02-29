@@ -1,5 +1,8 @@
 body {
   font-family: 'Montserrat', sans-serif;
+  background-image: url('../img/background-contacts.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 .montBlack{
   font-weight: 900;
@@ -9,9 +12,6 @@ body {
 }
 
 /* Navigation Section */
-#navigation {
-  padding: 0 1rem;
-}
 .navText {
   font-size: 20px;
 }
@@ -19,14 +19,14 @@ body {
 /* contacts section */
 
 #map {
-  height: 500px;
+  height: 600px;
 }
 .contactCol {
   position: relative;
   text-align: center;
 }
 
-.contact {  
+.contact {
   position: absolute;
   top: 40%;
   left: 50%;
