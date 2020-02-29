@@ -33,6 +33,9 @@ img {
 .introSpan {
   font-size: 3rem;
 }
+.introLogo {
+  background-color: #44627d;
+}
 .introContainer {
   color: white;
   position: absolute;
