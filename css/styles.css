@@ -34,7 +34,7 @@ img {
   font-size: 3rem;
 }
 .introLogo {
-  background-color: #44627d;
+  margin-bottom: 4.5rem;
 }
 .introContainer {
   color: white;
@@ -44,12 +44,14 @@ img {
 }
 .introContainer2 {
   color: white;
+  background-color: #ededed33;
   position: absolute;
   top: 30%;
   left: 50%;
   -webkit-transform: translateX(-50%);
   transform: translateX(-50%);
   text-align: center;
+  padding: 3rem;
 }
 
 /* about section */
@@ -65,6 +67,7 @@ img {
 .colH3 {
   color: #00a8cc;
   font-weight: 700;
+  margin-right: 3rem;
 }
 .colP {
   font-size: 1rem;
