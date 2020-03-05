@@ -27,6 +27,9 @@ img {
 #introduction {
   position: relative
 }
+.airlinerImg {
+  opacity: 0.8;
+}
 .introH3 {
   font-size: 2rem
 }
@@ -44,7 +47,6 @@ img {
 }
 .introContainer2 {
   color: white;
-  background-color: #ededed33;
   position: absolute;
   top: 30%;
   left: 50%;
